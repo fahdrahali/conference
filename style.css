@@ -1,0 +1,176 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .home {
+    background-image: url(./assets/images/bg-image-home.png);
+    background-size: cover;
+   }
+
+   .main-home {
+      margin: 20px;
+      padding: 0 20px;
+   }
+
+   .title {
+   font-family: 'COCOGOOSE', sans-serif;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 60px;
+   color: #ec5242;
+   margin-top: 10px;
+   }
+
+   .home span {
+     font-family: 'Lato', sans-serif;
+     font-size: 40px;
+     color: #ec5242;
+   }
+
+   .main-home p {
+    border: 4px solid #fff;
+    background-color: #f7f5f5; 
+    font-family: 'Lato', sans-serif;
+    color: #5a5757;
+    font-size: 26px;
+    line-height: 32px;
+    padding: 30px 30px;
+    margin-top: 50px;
+   }
+
+   .main-home h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    color: #5a5757;
+    margin-top: 50px;
+   }
+
+   .main-home h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    color: #5a5757;
+    margin-top: 2px;
+   }
+
+   .main-program {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 20px;
+     background-image: url(./assets/images/bg-main-program.jpg);
+     color: #fff;
+     font-family: 'Lato', sans-serif;
+     line-height: 32px;
+     padding: 20px;
+     margin-top: 120px;
+   }
+
+   .main-program h2 {
+     padding-top: 30px;
+     font-size: 30px;
+   }
+
+   .main-program span {
+    color: #ec5242;
+    margin-bottom: 20px;
+   }
+
+   .card-main-program {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     column-gap: 30px;
+     max-width: 100vw;
+     background-color:rgba(255, 255, 255, 0.1);
+     padding: 20px;
+     list-style: none;
+   }
+
+   .card-main-program  img {
+     width: 60px;
+   }
+
+   .card-main-program h3 {
+    color: #ec5242;
+    font-size: 25px;
+    width: 140px;
+   }
+
+   .card-main-program p {
+    font-size: 20px;
+   }
+
+   .home button {
+    background-color: #ec5242;
+    color: #fff;
+    padding: 60px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    margin: 30px auto;
+    border: none;
+   }
+
+   .about {
+    padding: 100px 0;
+    background-image: url(./assets/images/bg-image-home.png);
+    background-size: cover;
+   }
+
+   .main-about {
+     text-align: center;
+     padding: 0 40px;
+   }
+
+   .main-about span {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #ec5242;
+  }
+
+  .main-about h1 {
+    margin-top: 30px;
+    line-height: 65px;
+  }
+
+  .main-about p {
+   border:3px solid #d3d3d3;
+   background-color: #fff; 
+   font-family: 'Lato', sans-serif;
+   color: #5a5757;
+   font-size: 26px;
+   line-height: 40px;
+   padding: 20px 25px;
+   margin-top: 90px;
+  }
+
+  .main-about h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #5a5757;
+    margin-top: 2px;
+    padding: 30px 50px 0 50px;
+  }
+
+  .main-about h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #1f1e1e;
+    text-decoration: underline;
+  }
+}
