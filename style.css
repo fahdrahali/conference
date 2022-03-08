@@ -174,3 +174,239 @@
     text-decoration: underline;
   }
 }
+
+.nav-bar-desktop {
+  display: none;
+}
+
+.nav-social {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/images/bg-image-home.png);
+    background-size: cover;
+   }
+
+   .main-home {
+      width: 60%;
+      height: 100vh;
+      margin: 100px auto 0 auto;
+      padding: 150px 20px;
+   }
+
+   .title {
+   font-family: 'COCOGOOSE', sans-serif;
+   font-style: normal;
+   font-size: 75px;
+   line-height: 100px;
+   color: #ec5242;
+   margin-top: 10px;
+   }
+
+   .home span {
+     font-family: 'Lato', sans-serif;
+     font-size: 50px;
+     color: #ec5242;
+   }
+
+   .main-home p {
+     width: 70%;
+    border: 4px solid #fff;
+    background-color: #f7f5f5; 
+    font-family: 'Lato', sans-serif;
+    color: #5a5757;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 30px 30px;
+    margin-top: 50px;
+   }
+
+   .main-home h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    color: #5a5757;
+    margin-top: 50px;
+   }
+
+   .main-home h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    color: #5a5757;
+    margin-top: 2px;
+   }
+
+   .main-program {
+     display: none;
+     margin: 0;
+   }
+
+   .about {
+    height: 100vh;
+    background-image: url(./assets/images/bg-image-home.png);
+    background-size: cover;
+   }
+
+   .main-about {
+     text-align: center;
+     width: 60%;
+    height: 100vh;
+    margin: 100px auto;
+   }
+
+   .greeting {
+    display: none;
+  }
+
+  .main-about h1 {
+    padding-top: 200px;
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .line {
+    color: #ec5242;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .main-about p {
+   border:3px solid #d3d3d3;
+   background-color: #fff; 
+   font-family: 'Lato', sans-serif;
+   color: #5a5757;
+   font-size: 26px;
+   line-height: 40px;
+   padding: 20px 25px;
+   margin: 90px 0;
+  }
+
+  .main-about h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #5a5757;
+    margin-top: 2px;
+    padding: 30px 50px 0 50px;
+  }
+
+  .main-about h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #1f1e1e;
+    text-decoration: underline;
+  }
+
+  .nav-bar-desktop {
+    display: block;
+  }
+
+  .nav-social {
+    display: block;
+  }
+
+  .nav-bar {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-around;
+    font-style: normal;
+    font-size: 22px;
+    background-color: #fff;
+  }
+
+  .nav-bar li a {
+    text-decoration: none;
+  }
+
+  .nav-bar li:nth-of-type(1){
+    width: 500px;
+    text-align: center;
+  }
+
+  .nav-bar li:nth-of-type(7) {
+    width: 200px;
+    text-align: center;
+  }
+
+  .nav-bar li:nth-of-type(2) a {
+    color: #5a5757;
+  }
+
+  .nav-bar li:nth-of-type(3) a {
+    color: #5a5757;
+  }
+
+  .nav-bar li:nth-of-type(4) a {
+    color: #5a5757;
+  }
+
+  .nav-bar li:nth-of-type(5) a {
+    color: #5a5757;
+  }
+
+  .nav-bar li:nth-of-type(6) a {
+    color: #5a5757;
+  }
+
+  a:hover
+   :focus {
+    color: #ec5242;
+  }
+
+  .btn-cc {
+    border: 6px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
+  }
+
+  .nav-bar-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    column-gap: 20px;
+    list-style: none;
+    padding-right: 50px;
+    background-color: #272a31;
+  }
+
+  .nav-bar-social li a {
+    text-decoration: none;
+    color:#fff;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+  }
+
+  .twitter-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .facebook-icon {
+    width: 18px;
+    height: 30px;
+  }
+
+  .nav-bar-social li:nth-of-type(2){
+    margin-right: 30px;
+  }
+}
