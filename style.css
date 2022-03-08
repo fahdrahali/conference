@@ -283,6 +283,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    background-image: url(./assets/images/bg-image-home.png);
+    background-size: cover;
+  }
  
   header {
     position: fixed;
@@ -294,15 +298,13 @@
   .home {
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/images/bg-image-home.png);
-    background-size: cover;
    }
 
    .main-home {
       width: 60%;
       height: 100vh;
       margin: 100px auto 0 auto;
-      padding: 150px 20px;
+      padding: 150px 20px 0 20px;
    }
 
    .title {
@@ -354,16 +356,14 @@
    }
 
    .about {
-    height: 100vh;
-    background-image: url(./assets/images/bg-image-home.png);
-    background-size: cover;
-   }
+     display: flex;
+     flex-direction: column;
+     }
 
    .main-about {
      text-align: center;
      width: 60%;
-    height: 100vh;
-    margin: 100px auto;
+    margin: 50px auto;
    }
 
    .greeting {
@@ -371,7 +371,6 @@
   }
 
   .main-about h1 {
-    padding-top: 200px;
     font-size: 80px;
     line-height: 90px;
   }
