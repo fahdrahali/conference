@@ -142,12 +142,12 @@
   }
 
   .main-about h2 {
-      font-family: 'COCOGOOSE', sans-serif;
-      font-style: normal;
-      font-size: 40px;
-      line-height: 60px;
-      color: #ec5242;
-      margin-top: 10px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ec5242;
+    margin-top: 10px;
   }
 
   .main-about p {
