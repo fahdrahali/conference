@@ -23,10 +23,10 @@
     padding: 0 20px;
   }
 
-  .title {
+  .main-home h2 {
     font-family: 'COCOGOOSE', sans-serif;
     font-style: normal;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 60px;
     color: #ec5242;
     margin-top: 10px;
@@ -34,7 +34,7 @@
 
   .home span {
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     color: #ec5242;
   }
 
@@ -52,7 +52,7 @@
   .main-home h3 {
     font-family: 'COCOGOOSE', sans-serif;
     font-style: normal;
-    font-size: 45px;
+    font-size: 30px;
     color: #5a5757;
     margin-top: 50px;
   }
@@ -141,9 +141,13 @@
     color: #ec5242;
   }
 
-  .main-about h1 {
-    margin-top: 30px;
-    line-height: 65px;
+  .main-about h2 {
+      font-family: 'COCOGOOSE', sans-serif;
+      font-style: normal;
+      font-size: 40px;
+      line-height: 60px;
+      color: #ec5242;
+      margin-top: 10px;
   }
 
   .main-about p {
@@ -190,8 +194,8 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     list-style: none;
-    font-size: 60px;
-    height: 100vw;
+    font-size: 40px;
+    height: 100vh;
     width: 100vw;
     text-align: center;
     transform: translate(-150%);
@@ -289,7 +293,7 @@
   .speakers-container {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 70px;
     align-items: center;
     margin-top: 20px;
   }
@@ -371,7 +375,7 @@
     font-style: normal;
     font-size: 15px;
     color: #0e2431;
-    margin-top: 8px;
+    margin: 8px 0;
   }
 
   .speaker > span {
@@ -380,7 +384,7 @@
   }
 
   .btn-more {
-    width: 100%;
+    width: 80%;
     height: 20%;
     padding: 20px;
     font-family: 'Lato', sans-serif;
@@ -388,7 +392,7 @@
     font-size: 25px;
     color: #5a5757;
     border: 1px solid  #bdbaba;
-    margin: 30px 0;
+    margin: 10% 0;
     border-radius: 3px;
   }
 
@@ -402,6 +406,37 @@
 
   .is-active {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .speakers-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn-more {
+    width: 80%;
+    height: 20%;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #5a5757;
+    border: 1px solid  #bdbaba;
+    margin: 40% 0;
+    border-radius: 3px;
+  }
+
+  .speakers h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #0e2431;
   }
 }
 
@@ -437,6 +472,7 @@
     line-height: 100px;
     color: #ec5242;
     margin-top: 10px;
+    width: 100%;
   }
 
   .home span {

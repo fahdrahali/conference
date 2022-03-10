@@ -11,7 +11,7 @@ const speakers = [
     fullName: 'Hans-Christian Otto',
     img: 'url(./assets/images/Hans-Christian.jpg)',
     job: 'Suora GmbH',
-    description: 'After several years of being employed as a Director of Software Development, Christian co-founded Suora GmbH, a company that supports customers in designing, building, and modernizing web applications. From frontend technologies to complex server side architectures',
+    description: 'After several years of being employed as a Director of Software Development, Christian co-founded Suora GmbH, a company that supports customers in designing, building, and modernizing web applications.',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const speakers = [
     fullName: 'Roy Derks',
     img: 'url(./assets/images/Roy-Derks.jpg)',
     job: 'developer at StepZen',
-    description: 'Roy Derks is a developer, author and public speaker from the Netherlands. He’s providing services to help tech companies scale from ideation to MVP or from startup to scaleup, by training and inspiring developers worldwide. Currently he is working with StepZen on a mission to make GraphQL adoption easy and scalable.',
+    description: 'Roy Derks is a developer, author and public speaker from the Netherlands. He’s providing services to help tech companies scale from ideation to MVP or from startup to scaleup, by training and inspiring developers worldwide.',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const speakers = [
     fullName: 'Christian Liebel',
     img: 'url(./assets/images/Christian-Liebel.jpg)',
     job: 'Thinktecture AG',
-    description: 'Christian Liebel is a cross-platform development enthusiast thrilled by the opportunities offered by modern web technologies: Christian helps enterprises and independent software vendors to develop modern, cross-platform business applications based on Angular',
+    description: 'Christian Liebel is a cross-platform development enthusiast thrilled by the opportunities offered by modern web technologies: Christian helps enterprises and independent software vendors to develop modern.',
   },
 ];
 
