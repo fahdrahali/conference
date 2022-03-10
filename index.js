@@ -70,7 +70,11 @@ function createCardSpeaker() {
   speakerContainer.className = 'speakers-container';
   speakers.map((speaker) => {
     const speakerDiv = document.createElement('div');
-    speakerDiv.className = 'speaker';
+    if (speaker.id < 3) {
+      speakerDiv.className = 'speaker';
+    } else {
+      speakerDiv.className = 'speaker is-inactive';
+    }
     const imgDiv = document.createElement('div');
     imgDiv.className = 'img';
     const blackWhiteDiv = document.createElement('div');
@@ -107,5 +111,26 @@ function createCardSpeaker() {
   speakersSection.appendChild(speakerContainer);
 }
 
+function createButtonMore() {
+  if (window.matchMedia('(max-width: 768px)')) {
+    const button = document.createElement('button');
+    button.className = 'btn-more';
+    button.textContent = 'MORE';
+    speakersSection.appendChild(button);
+  }
+}
+
+function showMoreSpeakers() {
+  const btnMore = document.querySelector('.btn-more');
+  btnMore.addEventListener('click', () => {
+    document.querySelectorAll('.speaker').forEach((speaker) => {
+      speaker.className = 'speaker is-active';
+      btnMore.className = 'is-inactive';
+    });
+  });
+}
+
 createTitleFeaturedSpeakers();
 createCardSpeaker();
+createButtonMore();
+showMoreSpeakers();

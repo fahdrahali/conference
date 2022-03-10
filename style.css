@@ -390,8 +390,22 @@
   color: #5a5757;
   border: 1px solid  #bdbaba;
   margin:30px 0;
+  border-radius: 3px;
+}
+
+.btn-more:hover {
+  background-color:#ec5242;
+}
+
+.is-inactive {
+  display: none;
+}
+
+.is-active {
+  display: flex;
 }
 }
+
 @media screen and (min-width: 768px) {
   html {
     background-image: url(./assets/images/bg-image-home.png);
