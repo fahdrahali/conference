@@ -88,7 +88,7 @@
     margin-bottom: 20px;
   }
 
-  .main-program button{
+  .main-program button {
     padding: 30px;
     margin: 30px 0;
     color: #fff;
@@ -213,6 +213,10 @@
     transition: transform 0.5s ease-in-out;
     padding-top: 100px;
     background-color: #fff;
+  }
+
+  .main-program a {
+    display: none;
   }
 
   .mobile-menu li a {
@@ -419,11 +423,7 @@
     display: flex;
   }
 
-  .main-program a {
-    display: none;
-   }
-
-   .partner {
+  .partner {
     display: none;
   }
 }
@@ -439,7 +439,7 @@
   }
 
   .main-program a {
-   display: none;
+    display: none;
   }
 
   .btn-more {
@@ -559,7 +559,6 @@
     color: #ec5242;
     margin-bottom: 20px;
   }
-
 
   .program-cards {
     display: flex;
@@ -779,7 +778,7 @@
   .speakers-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 50px;
+    row-gap: 90px;
     margin-top: 20px;
   }
 
@@ -878,7 +877,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:  #1f1e1e;
+    background-color: #1f1e1e;
     width: 100vw;
     height: 200px;
     padding: 30px;
@@ -907,7 +906,7 @@
     margin-top: 30px;
   }
 
-  .partner-list li:nth-of-type(2){
+  .partner-list li:nth-of-type(2) {
     font-style: oblique;
     font-size: 40px;
   }
@@ -916,14 +915,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #e9e5e5;
+    background-color: #e9e5e5;
     width: 100vw;
     height: 200px;
     list-style: none;
     column-gap: 150px;
     padding-left: 200px;
     font-family: 'Lato', sans-serif;
-    
   }
 
   .footer-home li:nth-of-type(1) {
@@ -938,12 +936,11 @@
     font-size: 20px;
   }
 
-
   .footer-about {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  #1f1e1e;
+    background-color: #1f1e1e;
     color: #fff;
     width: 100vw;
     height: 200px;
@@ -964,4 +961,48 @@
     font-style: normal;
     font-size: 20px;
   }
+
+  .about-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    padding: 100px 0;
+    row-gap: 10px;
+    border: 2px solid #cfcdcd;
+  }
+
+  .about-logo li:nth-of-type(1) {
+    color: #1f1e1e;
+    font-size: 50px;   
+}
+
+  .about-logo li:nth-of-type(2) {
+      font-size: 30px;
+      color: #ec5242;
+  }
+
+  .about-logo li:nth-of-type(3) {
+    color: #1f1e1e;
+    font-size: 25px; 
+    padding: 0 200px;  
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.about-logo li:nth-of-type(4) {
+  border: 3px solid #e9e5e5;
+  padding: 20px 80px;
+}
+
+.logo-img {
+  background-image: url(./assets/images/logo.png);
+  background-size: cover;
+  width: 400px;
+  height: 165px;
+}
 }
