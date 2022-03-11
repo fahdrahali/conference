@@ -88,6 +88,17 @@
     margin-bottom: 20px;
   }
 
+  .main-program button{
+    padding: 30px;
+    margin: 30px 0;
+    color: #fff;
+    background-color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    border: none;
+  }
+
   .card-main-program {
     display: flex;
     flex-direction: row;
@@ -407,6 +418,14 @@
   .is-active {
     display: flex;
   }
+
+  .main-program a {
+    display: none;
+   }
+
+   .partner {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -417,6 +436,10 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .main-program a {
+   display: none;
   }
 
   .btn-more {
@@ -437,6 +460,10 @@
     font-style: normal;
     font-size: 30px;
     color: #0e2431;
+  }
+
+  .partner {
+    display: none;
   }
 }
 
@@ -510,8 +537,79 @@
   }
 
   .main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    background-image: url(./assets/images/bg-main-program.jpg);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 32px;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin-top: 120px;
+  }
+
+  .main-program h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+
+  .main-program span {
+    color: #ec5242;
+    margin-bottom: 20px;
+  }
+
+
+  .program-cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin: 0 200px;
+  }
+
+  .card-main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    column-gap: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    list-style: none;
+  }
+
+  .card-main-program:hover {
+    border: 3px solid #fff;
+  }
+
+  .card-main-program img {
+    width: 40px;
+  }
+
+  .card-main-program h3 {
+    color: #ec5242;
+    font-size: 20px;
+    width: 140px;
+  }
+
+  .card-main-program p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .main-program button {
     display: none;
-    margin: 0;
+  }
+
+  .main-program a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    word-spacing: 5px;
+    color: #d1cdcd;
+    font-size: 20px;
+    margin-top: 100px;
+    padding-bottom: 10px;
   }
 
   .about {
@@ -773,5 +871,44 @@
 
   .btn-more {
     display: none;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #1f1e1e;
+    width: 100vw;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .partner h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #c4c1c1;
+  }
+
+  .partner span {
+    font-size: 30px;
+    color: #ec5242;
+  }
+
+  .partner-list {
+    display: flex;
+    column-gap: 100px;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #c4c1c1;
+    margin-top: 30px;
+  }
+
+  .partner-list li:nth-of-type(2){
+    font-style: oblique;
+    font-size: 40px;
   }
 }
