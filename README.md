@@ -1,10 +1,28 @@
 ## Conference
-> The Conference project  [![portfolio](https://img.shields.io/badge/Link-Portfolio-<blue>)](https://fahdrahali.github.io/)
+> The Conference project  [![portfolio](https://img.shields.io/badge/Link-Portfolio-<blue>)](https://fahdrahali.github.io/) **This project is responsive with desktop and mobile version, it Contains two pages, a home page and an about page also a featured speackers and main program section.**
+
+## Built with
+
 - HTML
 - CSS
 - Javascript
+
+## Live Demo
+[Conference](https://fahdrahali.github.io/)
+
 ## Getting Started
- **I built the conference projet using html, css, and javascript,there are two pages, a home page and an about page also a section featured speackers. We have a desktop version and a mobile version**
+
+- Clone the repo.
+```
+git clone https://github.com/fahdrahali/fahdrahali.github.io.git
+```
+- Open the index.html on your browser.
+
+
+## Acknowledgements
+
+- Inspired by [Cindy Shin](https://www.behance.net/adagio07)
+- The design link [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 ## Authors
