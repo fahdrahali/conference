@@ -911,4 +911,57 @@
     font-style: oblique;
     font-size: 40px;
   }
+
+  .footer-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #e9e5e5;
+    width: 100vw;
+    height: 200px;
+    list-style: none;
+    column-gap: 150px;
+    padding-left: 200px;
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+  .footer-home li:nth-of-type(1) {
+    width: 20%;
+    font-style: normal;
+    font-size: 35px;
+  }
+
+  .footer-home li:nth-of-type(2) {
+    width: 60%;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+
+  .footer-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #1f1e1e;
+    color: #fff;
+    width: 100vw;
+    height: 200px;
+    list-style: none;
+    column-gap: 150px;
+    padding-left: 200px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .footer-about li:nth-of-type(1) {
+    width: 20%;
+    font-style: normal;
+    font-size: 35px;
+  }
+
+  .footer-about li:nth-of-type(2) {
+    width: 60%;
+    font-style: normal;
+    font-size: 20px;
+  }
 }
