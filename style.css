@@ -438,6 +438,13 @@
   footer {
     display: none;
   }
+
+  .program-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -488,6 +495,13 @@
 
   footer {
     display: none;
+  }
+
+  .program-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
   }
 }
 
