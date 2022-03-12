@@ -463,11 +463,11 @@
 
   .about-logo li:nth-of-type(3) {
     color: #1f1e1e;
-    font-size: 25px;
-    padding: 0 100px;
+    font-size: 20px;
+    padding: 0 40px;
     text-align: center;
     line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .about-logo li:nth-of-type(4) {
@@ -478,8 +478,8 @@
   .logo-img {
     background-image: url(./assets/images/logo.png);
     background-size: cover;
-    width: 400px;
-    height: 165px;
+    width: 360px;
+    height: 150px;
   }
 
   .past-conf {
@@ -616,6 +616,23 @@
     font-style: normal;
     font-size: 20px;
   }
+
+  .partner-list {
+    display: flex;
+    column-gap: 10px;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #c4c1c1;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .partner-list li:nth-of-type(2) {
+    font-style: oblique;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -653,7 +670,22 @@
   }
 
   .about-logo {
-    display: none;
+    padding: 100px 50px;
+  }
+
+  .about-logo li:nth-of-type(1){
+    font-size: 30px;
+  }
+
+  .about-logo li:nth-of-type(3) {
+    line-height: 33px;
+    padding: 0 18px;
+    font-size: 19px;
+  }
+
+  .logo-img {
+    width: 200px;
+    height: 85px;
   }
 
   .program-cards {
@@ -718,7 +750,7 @@
 
   .past-conf li:nth-of-type(1) {
     color: #1f1e1e;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 0 80px;
   }
@@ -730,7 +762,7 @@
 
   .past-conf li:nth-of-type(3) {
     color: #1f1e1e;
-    font-size: 15px;
+    font-size: 18px;
     padding: 0 70px;
     text-align: center;
     line-height: 30px;
