@@ -8,7 +8,7 @@
 - Javascript
 
 ## Live Demo
-[Conference](https://fahdrahali.github.io/)
+[Conference](https://fahdrahali.github.io/conference/)
 
 ## Getting Started
 
