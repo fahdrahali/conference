@@ -1,5 +1,5 @@
 ## Conference
-> The Conference project  [![portfolio](https://img.shields.io/badge/Link-Portfolio-<blue>)](https://fahdrahali.github.io/) **This project is responsive with desktop and mobile version, it Contains two pages, a home page and an about page also a featured speackers and main program section.**
+> The Conference project is responsive with desktop and mobile versions, it Contains a home page and an about page.it displays a list of speakers and the main program for the conference.
 
 ## Built with
 
