@@ -3,9 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Conference</title>
 </head>
 <body>
-    
+    <div class="container">
+    <header>
+        <nav class="nav-social">
+           <ul class="nav-bar-social">
+               <li><img class="facebook-icon" src="./assets/icons/facebook.png" alt="faacebook"></li>
+               <li><img class="twitter-icon" src="./assets/icons/twitter.png" alt="twitter"></li>
+               <li><a href="">Logout</a></li>
+               <li><a href="">Mypage</a></li>
+               <li><a href="">London</a></li>
+           </ul>
+        </nav>
+        <nav class="nav-bar-desktop">
+            <ul class="nav-bar">
+                <li><a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a></li>
+                <li><a href="./html/about.html">About</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Sponsor</a></li>
+                <li><a href="">News</a></li>
+                <li><a class="btn-cc" href="">CC Campaign</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-bar-mobile">
+            <input class="checkbox" type="checkbox" name="myCheck" id="myCheck" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <ul class="mobile-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a id="about-item" href="./html/about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="home" class="home">
+            <div class="main-home">
+            <span>"Hello! Sharing world"</span>
+            <h2 class="title">International JavaScript Conference 2022 </h2>
+            <p>The JavaScript world is constantly evolving and there’s something new to learn every day. We at International JavaScript Conference want you to be a part 
+                of that change and stay on top of the latest trends.</p>
+                <h3>2022.4.25(THU) ~ 28(FRI)</h3>
+                <h4>@ iJS LONDON - THE HYBRID CONFERENCE</h4>
+            </div>
+        </section>
+        <article class="main-program">
+            <h2>Main Program</h2>
+            <span>____</span>
+            <div class="program-cards">
+            <ul class="card-main-program">
+                <li><img src="./assets/icons/lecture.png" alt="lecture"></li>
+                <li><h3>Lecture</h3></li>
+                <li><p>Listen to the speakers from various countries 
+                    about the messenges of sharing and opening.</p></li>
+                </ul>
+            <ul class="card-main-program">
+                <li><img src="./assets/icons/exhibition.png" alt="exhibition"></li>
+                <li><h3>CC Exhibition</h3></li>
+                <li><p>Appreciate various creations applying CC licence of artist.
+                    organized from Art Center Nabi
+                </p></li>
+            </ul>
+            <ul class="card-main-program">
+                <li><img src="./assets/icons/forum.png" alt="forum"></li>
+                <li><h3>Forum</h3></li>
+                <li><p>Have the time to share your thoughts 
+                    and opinions with experts for each topic</p></li>
+            </ul>
+            <ul class="card-main-program">
+                <li><img src="./assets/icons/workshop.png" alt="workshop"></li>
+                <li><h3>Workshop</h3></li>
+                <li><p>Try creating your own work using 
+                    open source licence rather than just watching.</p></li>
+            </ul>
+            <ul class="card-main-program">
+                <li><img src="./assets/icons/network.png" alt="network"></li>
+                <li><h3>CC Ignite</h3></li>
+                <li><p>Get opportunities to network with CC affiliates
+                     around the world, also after summit.</p></li>
+            </ul>
+           </div>
+            <button type="button">Join CC Global Summit 2015</button>
+            <a href="#">SEE THE WHOLE PROGRAM</a>
+        </article>
+    </main>
+    <footer >
+        <section>
+            <ul  class="partner">
+               <li><h2>Partner</h2></li>
+               <li><span>___</span></li>
+               <li><ul class="partner-list">
+                   <li>auth0</li>
+                   <li>CHOCO</li>
+                   <li>progress</li>
+                   <li>VONAGE</li>
+               </ul></li>
+            </ul>
+           </section>
+        <section>
+        <ul class="footer-home">
+            <li><a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a></li>
+            <li>© Copyright 2021 S&S Media, All Rights Reserved</li>
+        </ul>
+    </section>
+    </footer>
+</div>
+<script src="./index.js"></script>
 </body>
 </html>
